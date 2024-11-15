@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+body {
+    background: rgb(209, 216, 220);
+}
+
+.contacts {
+    display: grid;
+    width:  auto;
+    max-width: 700px;
+    height: 500px;
+    background-color: white;
+    justify-self: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 24px 2px rgb(186, 194, 201);
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.contacts .header {
+    color: #393939d6;
+    font-family: "Matemasie", sans-serif;
+    padding: 5px 0 0 0;
+    height: auto;
+    margin-bottom: -5px;
+    position: sticky;
+    top: 0; 
+    background-color: white; 
+    z-index: 1;
+}
+
+.list-group {
+    width: auto !important;
+    max-height: 100%; 
+    overflow-y: auto; 
+}
+
+.list-group-item {
+    width: auto !important;
+}
+
+.contact-photo {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 2px rgb(45 45 45 / 25%);
+}
+
+.info {
+    font-size: 13px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+
+.name {
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.updateicon {
+    position: relative;
+    top: -1px;
+    width: 20px;
+}
+
+.fa-trash {
+    color: red;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+    .addContact {
+        margin-right: 38px;
+        align-self: end;
+        justify-self: end;
+        position: sticky;
+        bottom: 20px;
+        /* left: 207px; */
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    
+    .addContact:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+
+    .newContact {
+        margin-right: 38px;
+        align-self: end;
+        justify-self: end;
+        position: sticky;
+        bottom: 35px;
+        /* left: 207px; */
+        background-color: #0bc402;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .newContact:hover {
+        background-color: #078500;
+    }
+
+
+    .grid-container {
+        
+        display: grid;
+        grid-template-columns: auto 1fr 1fr;
+         gap: 1rem;
+      }
+      
+      .homeButton {
+        margin-left: 38px;
+        align-self: end;
+        justify-self: start;
+        position: sticky;
+        bottom: 35px;
+        /* left: 207px; */
+        background-color: #1c75fa;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+      }
+
+      .homeButton:hover {
+        background-color: #0056b3;
+        color: white;
+      }
+     
+
+      
