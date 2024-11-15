@@ -19,10 +19,11 @@ body {
 
 .contacts .header {
     color: #393939d6;
-    font-family: "Matemasie", sans-serif;
-    padding: 5px 0 0 0;
+    font-family: "Arial";
+    padding: 10px;
     height: auto;
-    margin-bottom: -5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     position: sticky;
     top: 0; 
     background-color: white; 

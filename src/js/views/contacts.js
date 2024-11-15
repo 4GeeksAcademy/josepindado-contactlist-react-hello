@@ -19,7 +19,7 @@ export const Contacts = ({contact}) => {
 	return (
 	<div className="contact-card">
 		<div className="contact-info grid-container">
-		<img className="contact-photo grid-item-photo" src="https://storage.googleapis.com/static.elsoldemexico.com.mx/elesto/2022/11/Cristiano-Ronaldo-anoto-en-cinco-copas-del-mundo.png" alt="" />
+		<img className="contact-photo grid-item-photo" src="https://cdn.pixabay.com/photo/2022/06/05/07/04/person-7243410_1280.png" alt="" />
 		<div className="info d-flex grid-item">
 			<span className="name fw-bold">{contact.name}</span>
 			<span className="address">
