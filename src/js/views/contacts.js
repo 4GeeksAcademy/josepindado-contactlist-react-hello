@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import { useNavigate } from 'react-router';
 import { Context } from "../store/appContext";
 import update from "../../img/update.png"
-import rigoImage from "../../img/rigo-baby.jpg";
 
 
 export const Contacts = ({contact}) => {
