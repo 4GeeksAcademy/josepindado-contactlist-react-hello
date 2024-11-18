@@ -18,26 +18,24 @@ body {
 }
 
 .contacts .header {
-    color: #393939d6;
+    color: #000000d6;
     font-family: "Arial";
     padding: 10px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
     position: sticky;
-    top: 0; 
     background-color: white; 
-    z-index: 1;
 }
 
 .list-group {
-    width: auto !important;
+    align-items: center;
+    width: 100%;
     max-height: 100%; 
-    overflow-y: auto; 
 }
 
 .list-group-item {
-    width: auto !important;
+    width: 80%;
 }
 
 .contact-photo {
@@ -78,93 +76,85 @@ body {
 }
 
 
-    .addContact {
-        margin-right: 38px;
-        align-self: end;
-        justify-self: end;
-        position: sticky;
-        bottom: 20px;
-        /* left: 207px; */
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-decoration: none;
-    }
-    
-    
-    .addContact:hover {
-        background-color: #0056b3;
-        color: white;
-    }
-
-    .newContact {
-        margin-right: 38px;
-        align-self: end;
-        justify-self: end;
-        position: sticky;
-        bottom: 35px;
-        /* left: 207px; */
-        background-color: #0bc402;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .newContact:hover {
-        background-color: #078500;
-    }
+.addContact {
+margin-right: 38px;
+align-self: end;
+justify-self: end;
+position: sticky;
+bottom: 20px;
+background-color: #eb3333;
+color: white;
+border: none;
+border-radius: 25%;
+width: 50px;
+height: 50px;
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-decoration: none;
+}
 
 
-    .grid-container {
-        
-        display: grid;
-        grid-template-columns: auto 1fr 1fr;
-         gap: 1rem;
-      }
-      
-      .homeButton {
-        margin-left: 38px;
-        align-self: end;
-        justify-self: start;
-        position: sticky;
-        bottom: 35px;
-        /* left: 207px; */
-        background-color: #1c75fa;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-decoration: none;
-      }
+.addContact:hover {
+background-color: #0056b3;
+color: white;
+}
 
-      .homeButton:hover {
-        background-color: #0056b3;
-        color: white;
-      }
-     
+.newContact {
+margin-right: 38px;
+align-self: end;
+justify-self: end;
+position: sticky;
+bottom: 35px;
+background-color: #0bc402;
+color: white;
+border: none;
+border-radius: 25%;
+width: 50px;
+height: 50px;
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-      
+.newContact:hover {
+background-color: #078500;
+}
+
+
+.grid-container {
+display: grid;
+grid-template-columns: auto 1fr 1fr;
+gap: 1rem;
+}
+
+.homeButton {
+margin-left: 38px;
+align-self: end;
+justify-self: start;
+position: sticky;
+bottom: 35px;
+background-color: #1c75fa;
+color: white;
+border: none;
+border-radius: 25%;
+width: 50px;
+height: 50px;
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-decoration: none;
+}
+
+.homeButton:hover {
+background-color: #0056b3;
+color: white;
+}
+
+
